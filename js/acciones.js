@@ -3,7 +3,7 @@ $(document).ready(function(e) {
  alert ("Listo");
 	});
 	document.addEventListener("diviceready,",function(){
-		$('.btn').tap(function(){
+		$(".btn").tap(function(){
 			var boton=(($(this).attr('class')).split
 			(' ')){1};
 			
@@ -34,6 +34,6 @@ $(document).ready(function(e) {
 			});
 	        $('#derecha').swiperight((function(){
 			navigator.notification.alert("Dezliza a la derecha",function(){},"practica 1","aceptar");
-		    });
+		    }); });
 		    },false);
 		    });
